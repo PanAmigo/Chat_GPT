@@ -1,0 +1,79 @@
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input[type=text] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            background-color: #f8f8f8;
+            resize: none;
+        }
+
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        /* Styl dla wiadomości od AI */
+        .ai-message {
+            text-align: left;
+            background-color: #d8d8d8;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        /* Styl dla wiadomości od AI z historii */
+        .old-ai-message {
+            text-align: left;
+            background-color: #f1f1f1;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        /* Styl dla wiadomości od użytkownika */
+        .user-message {
+            text-align: right;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        /* Styl dla wiadomości od użytkownika z historii */
+        .old-user-message {
+            text-align: right;
+            background-color: #7aaf4c;
+            color: white;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            white-space: pre-line;
+        }
+
+        /* Styl dla textarea */
+        .new_textarea {
+            font-weight: 300;
+            min-width: 800px;
+            padding-left: 0.8rem;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            resize: none;
+            width: auto;
+        }
